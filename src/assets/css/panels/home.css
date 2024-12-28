@@ -376,3 +376,68 @@
 .active-instance {
     background: var(--element-color);
 }
+/* Styles de base pour les sections */
+.news-container {
+    display: flex;
+    justify-content: space-between; /* Espacement entre les deux blocs */
+    gap: 20px; /* Espacement entre les deux blocs */
+    padding: 20px;
+}
+
+.news-block,
+.map-block {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-block {
+    width: 45%; /* La section des actualités occupe 45% de la largeur */
+}
+
+.map-block {
+    width: 55%; /* La carte occupe 55% de la largeur (plus grande que les actualités) */
+}
+
+.news-header,
+.map-header {
+    padding: 10px;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.news-header .title,
+.map-header .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.news-header .date,
+.map-header .date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.news-content,
+.map-content {
+    padding: 10px;
+}
+
+iframe {
+    border: none; /* Enlève la bordure de l'iframe */
+    width: 100%;
+}
+
+/* Réponse sur petits écrans (mises en colonne) */
+@media (max-width: 768px) {
+    .news-container {
+        flex-direction: column; /* Passage en colonne sur les petits écrans */
+    }
+
+    .news-block,
+    .map-block {
+        width: 100%; /* Chaque bloc prend 100% de la largeur */
+        margin-bottom: 20px; /* Ajout d'un espacement entre les blocs */
+    }
+}
