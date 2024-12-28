@@ -22,7 +22,7 @@ class Home {
         
         // Exemple de contenu pour les actualités et la carte dynamique
         const newsURL = "https://main.lesaffranchishost.fr/news/news.html"; // Remplacez par l'URL réelle des actualités
-        const mapURL = "http://192.168.1.83:50700/?world=minecraft-overworld&renderer=vintage_story&zoom=1&x=-1750&z=684"; // Remplacez par l'URL de la carte dynamique
+        const mapURL = "https://map.lesaffranchishost.fr/"; // Remplacez par l'URL de la carte dynamique
         
         // Création d'un conteneur pour les blocs côte à côte
         let container = document.createElement('div');
