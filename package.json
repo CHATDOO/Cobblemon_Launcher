@@ -1,7 +1,7 @@
 {
     "name": "Cobblemon_Launcher",
     "preductname": "Cobblemon Launcher",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "description": "Launcher Mincraft pour le serveur Cobblemon",
     "main": "src/app.js",
     "author": {

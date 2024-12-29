@@ -21,7 +21,7 @@ class Home {
         let newsElement = document.querySelector('.news-list');
         
         // Exemple de contenu pour les actualités et la carte dynamique
-        const newsURL = "https://main.lesaffranchishost.fr/news/news.html"; // Remplacez par l'URL réelle des actualités
+        const newsURL = "https://main.lesaffranchishost.fr/news"; // Remplacez par l'URL réelle des actualités
         const mapURL = "https://map.lesaffranchishost.fr/"; // Remplacez par l'URL de la carte dynamique
         
         // Création d'un conteneur pour les blocs côte à côte
